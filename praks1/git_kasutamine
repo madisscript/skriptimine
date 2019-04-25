@@ -17,3 +17,4 @@
 		git remote add skriptimine "aadress"
 	b) git remote kontroll
 		git remote -v
+	
