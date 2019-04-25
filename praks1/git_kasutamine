@@ -7,14 +7,20 @@
 		git config --global user.email kasuta@nimi
 		git config --global core.editor nano
 	b) loon kataloogi kus hakkan skriptima
-	mkdir skriptimine
+		mkdir skriptimine
 	c) sisenen kausta
-	cd skriptimine
+		cd skriptimine
 	d) tekita lokaalne repositoorum git systeemi jaoks antud kaustas
-	git init
+		git init
 	remote seadistamine:
 	a) git remote add nimi aadress
 		git remote add skriptimine "aadress"
 	b) git remote kontroll
 		git remote -v
-	
+	p6hikasutamine:
+	a) pane fail j2lgimisele
+		git add failinimi
+	b) lisa kirjeldus muudatuse kohta
+		git commit -m "lyhikirjelduse lause"
+	c) lisa kaugrepositooriumi
+		git push -uf skriptimine master	
