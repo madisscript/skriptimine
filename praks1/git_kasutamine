@@ -1,0 +1,14 @@
+	Root kasutajana:
+	installeerimine ; apt-get install git
+	Tavakasutajana:
+	esmakordselt;
+	a) seadistamine - m22ra kasutajanimi, email ja editor.
+		git config --global user.name "Eesnimi Perenimi"
+		git config --global user.email kasuta@nimi
+		git config --global core.editor nano
+	b) loon kataloogi kus hakkan skriptima
+	mkdir skriptimine
+	c) sisenen kausta
+	cd skriptimine
+	d) tekita lokaalne repositoorum git systeemi jaoks antud kaustas
+	git init
