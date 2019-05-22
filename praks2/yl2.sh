@@ -12,6 +12,6 @@ echo $NIMI; echo $OG; echo $TUNNE; echo $MULJE;
 sleep 5s; clear
 	#puhastan v2ljundi peale 5 sekundit
 
-#skript l6ppeb
+#skript l6peb
 
 
