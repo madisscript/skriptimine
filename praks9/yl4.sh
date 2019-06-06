@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo -n "Ridade arv"; read rida
+echo -n "Sisesta read "; read rida
 
-for (( a = 1; a <=$rida; a++ ))
+for (( a = 1; a <= $rida; a++ ))
 do
-  echo -n "$a."
-  for (( b = 1; b <= $a; a++ ))
-  do echo -n "*"
-  
-  done
-  echo ""
+ echo -n "$i."
+ for (( b = $rida; b >= $a; b-- ))
+ do
+  echo -n "*"
+   done
+     echo ""
 done

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo -n "Mitu rida soovid: "; read rida
+echo -n "sisesta read  "; read rida
 
 for (( a = 1; a <= $rida; a++ ))
 do
-	echo -n "$j."
+	echo -n "$a."
 	for (( b = ((rida-1)); b >=  $a; b--))
 	do
 		echo -n "O"
